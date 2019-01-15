@@ -1,3 +1,4 @@
+
 function printBadges(arg) {
   for (i = 0, i < arg.length, i++){
     console.log(`Welcome ${arg[i]}! You are employee #${i}.`);
@@ -9,6 +10,7 @@ function printBadges(arg) {
    i = 0;
    while (Math.random() >= 0.5){
      i++
-   } return `You got ${i} tails in a row!` 
+   } return `You got ${i} tails in a row!`
  }
+
  
