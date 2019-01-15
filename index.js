@@ -3,3 +3,10 @@ function printBadges(arg) {
     console.log(`Welcome ${arg[i]}! You are employee #${i}.`);
   }
 }
+
+
+ function tailsNeverFails() {
+   while (Math.random() >= 0.5){
+     
+   }
+ }
