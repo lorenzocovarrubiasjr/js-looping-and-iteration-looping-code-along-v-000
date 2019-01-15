@@ -1,7 +1,7 @@
 
 function printBadges(arg) {
   for (let i = 0; i < arg.length; i++) {
-    console.log(`Welcome ${arg[i]}! You are employee #${i}.`);
+    console.log(`Welcome ${arg[i]}! You are employee #${i + 1}.`);
   }
   return arg;
 };
